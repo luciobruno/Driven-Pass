@@ -23,6 +23,9 @@ export class UserRepository {
     return await this.prisma.user.findFirst({ where: { id } });
   }
   async deleteUserById(id: number) {
+    await this.prisma.note.deleteMany({ where: { id } });
+    await this.prisma.card.deleteMany({ where: { id } });
+    await this.prisma.credential.deleteMany({ where: { id } });
     return await this.prisma.user.delete({ where: { id } });
   }
 }
