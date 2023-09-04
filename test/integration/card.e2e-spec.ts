@@ -5,7 +5,6 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { AppModule } from '../../src/app.module';
 import * as bcrypt from 'bcrypt';
 import * as jwt from 'jsonwebtoken';
-import { CryptrService } from 'src/cryptr/cryptr.service';
 
 describe('User E2E Tests', () => {
   let app: INestApplication;
