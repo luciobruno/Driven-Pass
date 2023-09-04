@@ -3,7 +3,9 @@ import { DeleteUserDTO } from './dto/deleteUser.dto';
 import { User } from '../decorators/user.decorator';
 import { UserService } from './user.service';
 import { AuthGuard } from '../guards/auth.guard';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('User')
 @Controller('user')
 @UseGuards(AuthGuard)
 export class UserController {

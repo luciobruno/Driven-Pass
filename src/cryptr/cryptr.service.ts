@@ -1,6 +1,7 @@
-import { Injectable } from '@nestjs/common';
+import { Global, Injectable } from '@nestjs/common';
 import Cryptr from 'cryptr';
 
+@Global()
 @Injectable()
 export class CryptrService {
   private cryptr: Cryptr;
