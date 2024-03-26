@@ -8,22 +8,22 @@ Através de recursos cuidadosamente projetados e implementados, o Driven Pass bu
 
 Este projeto possui 6 rotas:
 
-- /health
+- /health: 
 Rota para garantir que a aplicação está funcionando.
 
-- /users
+- /users: 
 Rota que possibilita a criação de contas e acesso a elas.
 
-- /credentials
+- /credentials: 
 Rota que possibilita a criação de credenciais, como o nome do serviço, o usuário que está criando a senha e a senha para o serviço.
 
-- /notes
+- /notes: 
 Rota que possibilita a criação de Notas Seguras, que são informações livres em formato de texto.
 
-- /cards
+- /cards: 
 Rota que possibilita o cadastro de cartões, tanto de crédito quanto de débito.
 
-- /erase
+- /erase: 
 Rota que possibilita que o usuário possa deletar sua conta.
 
 # Tecnologias
