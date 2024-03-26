@@ -1,17 +1,19 @@
 # Driven Pass
 
-O "Social Postify" é um aplicativo web que permite aos usuários criar e agendar publicações para várias redes sociais, como Facebook, Instagram, Twitter e LinkedIn. Os usuários podem criar publicações personalizadas com imagens, títulos, texto e selecionar a data e horário específicos para cada publicação. O sistema suporta o agendamento de várias publicações e fornece uma visão geral clara das postagens programadas.
+O Driven Pass é uma aplicação de gerenciamento de senhas que utiliza uma abordagem de back-end desenvolvida com o framework Nest. Seu objetivo principal é fornecer aos usuários uma plataforma segura e eficiente para armazenar e gerenciar suas senhas de forma conveniente. O projeto visa oferecer uma solução robusta para as preocupações de segurança relacionadas ao armazenamento de informações sensíveis, ao mesmo tempo em que simplifica a experiência do usuário na gestão de suas credenciais online.
 
 # Sobre este Projeto
 
-O gerenciamento das atividades de mídia social, economiza tempo, melhora a consistência do conteúdo e permite que os usuários atinjam seu público de maneira mais estratégica.
+Através de recursos cuidadosamente projetados e implementados, o Driven Pass busca garantir a proteção dos dados do usuário, enquanto mantém uma interface intuitiva e fácil de usar.
 
-Este projeto possui 3 rotas:
-- Medias
-- Posts
-- Publications
+Este projeto possui 6 rotas:
 
-Em cada uma delas, é possível adicionar um novo elemento, buscar todos os dados, buscar um dado específico por ID, atualizar algumas informações de um elemento e apagar um elemento. Além disso, foram realizados testes de integração para cada uma das rotas, utilizando ferramentas como Faker, Jest e Supertest, com o intuito de garantir a qualidade do aplicativo.
+- /health
+- /users
+- /credentials
+- /notes
+- /cards
+- /erase
 
 # Tecnologias
 
